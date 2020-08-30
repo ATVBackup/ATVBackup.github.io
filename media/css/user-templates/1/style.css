@@ -1,0 +1,270 @@
+html {
+	/*overflow-y:scroll;*/
+}
+#navigation #menu > ul{
+	display: block!important; /* preloading menu not needed,n o more menu. So hide.. */
+}
+#menu ul > li
+{
+	position:static!important;
+}
+#menu > ul > li  ul li a{
+	margin:0!important;
+}
+#menu > ul > li  ul li {
+	padding:0!important;
+	margin: 0 !important;
+}
+#menu > ul > li > ul li{
+	height:35px!important;
+	
+}
+#menu > ul > li > ul a{
+	font-family: inherit!important;
+	font-size: inherit!important;
+	font-weight: inherit!important;
+	color:inherit!important;
+	letter-spacing:inherit !important;
+	padding:8px 20px!important;
+	height:19px!important;
+}
+#navigation.left #menu > ul > li ul, #navigation.right #menu > ul > li ul, #navigation.top #menu > ul > li > ul > li ul{
+	/*left:auto!important;
+	right:-222px!important;
+	top:0px!important;*/
+	border:1px solid #DBDBDB;
+	margin-top:-33px;
+	top:auto!important;
+}
+/*
+#navigation.right #menu > ul > li  ul{
+	/*right:auto!important;
+	left:-222px!important;
+	top:0px!important;*/
+	border:1px solid #DBDBDB;
+	margin-top:-33px;
+	top:auto!important;
+}*/
+#menu  ul > li > ul > li{
+	border-bottom:1px solid #DBDBDB!important;
+}
+body {
+	margin:0;
+	font-size:13px;
+	font-family:Tahoma;
+	background-color:#B9D5FF;
+	color:#444444;
+}
+
+#wrapper {
+	margin:60px auto 20px;
+	width:800px;
+	border:3px solid #919191;
+	border-radius:4px;
+	overflow:hidden;
+	/*overflow:hidden; needed for nested menu's, don't know why it was there */
+	line-height: 19px;
+	background: #FAFAFA;
+	font-family: Lucida sans, Tahoma, Arial;
+
+}
+#wrapper a {
+	text-decoration: underline!important;
+}
+
+a {
+	color:#004488;
+}
+a:hover {
+	color:#4566D4;
+}
+
+#header_color{
+	background-color:#282F33;
+}
+#header {
+	padding:5px;
+	color:#121212;
+	text-align:right;
+	height:130px;
+	overflow:hidden; 
+}
+
+#header h1 {
+	font-size:36px;
+	font-weight: normal;
+}
+
+#wrapper,#navigation,#content {
+	/*background-color:#FAFAFA;*/
+}
+
+#navigation.right,#navigation.left {
+	width:150px;
+	height:100%;
+}
+
+#navigation.right {
+	float:right;
+}
+
+#navigation.left {
+	float:left;
+}
+
+#navigation.top {
+	width:100%;
+	float:right;
+}
+
+#navigation ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+#navigation li a {
+	text-decoration:none!important;
+	padding:7px 10px;
+	display:block;
+	background-color:#F7F7F2;
+	color:#555544;
+}
+
+#navigation.top li,#navigation.left.style2 li,#navigation.right.style2 li {
+	border-bottom:0;
+}
+
+#navigation.top.style2 li {
+	float:left!important;
+	padding:6px 10px;
+}
+
+#navigation.top.style2 li a {
+	border-radius:3px;
+}
+
+#navigation.top.style1 li {
+	float:left!important;
+}
+
+#navigation.top.style1 li a {
+}
+
+#navigation.left.style2 li:first-child,#navigation.right.style2 li:first-child {
+	margin-top:10px;
+}
+
+#navigation.left.style1 li,#navigation.right.style1 li {
+	border-bottom:1px solid #EAEADA;
+}
+
+#navigation.left.style1 li a,#navigation.right.style1 li a {
+}
+
+#navigation.left.style2 li,#navigation.right.style2 li {
+	border-bottom:1px solid #EAEADA;
+}
+
+#navigation.left.style2 li a,#navigation.right.style2 li a {
+	margin:3px 5px;
+	border-radius:3px;
+}
+
+#navigation li a:hover,#navigation li a.active {
+	background-color:#F0F0EB;
+	color:#555544;
+}
+
+#content {
+	padding:10px;
+	min-height:300px;
+	/*position:relative;*/
+	overflow:hidden;
+}
+.box2{
+	min-height: 150px;
+}
+
+#footer {
+	background-color:#949490;
+	padding:10px;
+	clear:both;
+	bottom:0;
+	color:#000000;
+}
+
+#footer a {
+	color:#FFFFFF;
+}
+
+#footer span {
+	float:right;
+}
+
+#sidebar {
+	padding:5px;
+}
+
+h1 {
+	font-size:1.8em;
+	margin-bottom:4px;
+	line-height: 1.5;
+	margin-top:16px;
+}
+
+h2 {
+	font-size:1.6em;
+	line-height: 1.5;
+	margin-top:4px;
+}
+
+h3 {
+	font-size:1em;
+}
+
+div.clearer {
+	clear:both;
+}
+
+#footer_logo {
+	/*background:url(images/ico.png) top left no-repeat;*/
+	height:32px;
+	padding-left:36px;
+	margin-left:-15px;
+}
+
+
+
+input[type=text].site_style,textarea{
+	border-radius: 3px;
+	border: 1px solid #B2B2B2;
+	outline: 0;
+	background: #fff;
+	box-shadow: rgba(0,0,0,0.1) 0 0 6px;
+	-moz-box-shadow: rgba(0,0,0,0.1) 0 0 6px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 0 0 6px;
+	color: #373737;
+	height: 16px;
+	margin: 0;
+	padding: 6px 4px 5px 10px;
+	resize: none;
+}
+input[type=text].site_style:focus,textarea.site_style:focus{
+	border: 1px solid #757575;
+}
+.small_form{
+	width:170px!important;
+}
+.big_form{
+	width:400px!important;
+}
+.small_form_textarea{
+	width:153px!important;
+}
+.big_form_textarea{
+	width:383px!important;
+}
+.enqueteprocent{
+	height:20px;
+}
