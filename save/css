@@ -1,1 +1,97 @@
-#header h1{text-align:center}#wrapper{border-radius:35px}body{background-color:#216bdb}#header_color{background-color:#fa0808}#header h1{color:#f7f7f7}#wrapper{border-color:#4962de}.content_container{color:#ff0000}#navigation li a{background:#fa0000}#navigation li a:hover, #navigation li a.active{background:#4400ff}#navigation li a{color:#000000}#navigation li a:hover, #navigation li a.active{color:#ff0000}#navigation.left.style1 li, #navigation.left.style2 li, #navigation.right.style1 li, #navigation.right.style2 li{border-bottom:1px solid #ffffff}#footer{background:#ffffff}#footer{color:#ffffff}#header h1{font-family:Arial}#header h1{font-size:44px}#header h1{font-weight:bold}#wrapper{width:806px}#wrapper{margin-top:35px}#header{height:136px}#navigation.left #menu > ul > li > ul{ margin-left: 171px}#navigation.right #menu > ul > li > ul{ margin-left: -171px}#navigation.right, #navigation.left{width:171px}
+#header h1 {
+	text-align: center!important
+}
+
+#wrapper {
+	border-radius: 35px!important
+}
+
+body {
+	background-color: #216bdb!important
+}
+
+#header_color {
+	background-color: #fa0808!important
+}
+
+#header h1 {
+	color: #f7f7f7!important
+}
+
+#wrapper {
+	border-color: #4962de!important
+}
+
+.content_container {
+	color: #ff0000!important
+}
+
+#navigation li a {
+	background: #fa0000!important
+}
+
+#navigation li a:hover,
+#navigation li a.active {
+	background: #4400ff!important
+}
+
+#navigation li a {
+	color: #000000!important
+}
+
+#navigation li a:hover,
+#navigation li a.active {
+	color: #ff0000!important
+}
+
+#navigation.left.style1 li,
+#navigation.left.style2 li,
+#navigation.right.style1 li,
+#navigation.right.style2 li {
+	border-bottom: 1px solid #ffffff!important
+}
+
+#footer {
+	background: #ffffff!important
+}
+
+#footer {
+	color: #ffffff!important
+}
+
+#header h1 {
+	font-family: Arial!important
+}
+
+#header h1 {
+	font-size: 44px!important
+}
+
+#header h1 {
+	font-weight: bold!important
+}
+
+#wrapper {
+	width: 806px!important
+}
+
+#wrapper {
+	margin-top: 35px!important
+}
+
+#header {
+	height: 136px
+}
+
+#navigation.left #menu>ul>li>ul {
+	margin-left: 171px
+}
+
+#navigation.right #menu>ul>li>ul {
+	margin-left: -171px
+}
+
+#navigation.right,
+#navigation.left {
+	width: 171px
+}
