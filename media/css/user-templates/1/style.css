@@ -2,51 +2,51 @@ html {
 	/*overflow-y:scroll;*/
 }
 #navigation #menu > ul{
-	display: block!important; /* preloading menu not needed,n o more menu. So hide.. */
+	display: block; /* preloading menu not needed,n o more menu. So hide.. */
 }
 #menu ul > li
 {
-	position:static!important;
+	position:static;
 }
 #menu > ul > li  ul li a{
-	margin:0!important;
+	margin:0;
 }
 #menu > ul > li  ul li {
-	padding:0!important;
-	margin: 0 !important;
+	padding:0;
+	margin: 0 ;
 }
 #menu > ul > li > ul li{
-	height:35px!important;
+	height:35px;
 	
 }
 #menu > ul > li > ul a{
-	font-family: inherit!important;
-	font-size: inherit!important;
-	font-weight: inherit!important;
-	color:inherit!important;
-	letter-spacing:inherit !important;
-	padding:8px 20px!important;
-	height:19px!important;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	color:inherit;
+	letter-spacing:inherit ;
+	padding:8px 20px;
+	height:19px;
 }
 #navigation.left #menu > ul > li ul, #navigation.right #menu > ul > li ul, #navigation.top #menu > ul > li > ul > li ul{
-	/*left:auto!important;
-	right:-222px!important;
-	top:0px!important;*/
+	/*left:auto;
+	right:-222px;
+	top:0px;*/
 	border:1px solid #DBDBDB;
 	margin-top:-33px;
-	top:auto!important;
+	top:auto;
 }
 /*
 #navigation.right #menu > ul > li  ul{
-	/*right:auto!important;
-	left:-222px!important;
-	top:0px!important;*/
+	/*right:auto;
+	left:-222px;
+	top:0px;*/
 	border:1px solid #DBDBDB;
 	margin-top:-33px;
-	top:auto!important;
+	top:auto;
 }*/
 #menu  ul > li > ul > li{
-	border-bottom:1px solid #DBDBDB!important;
+	border-bottom:1px solid #DBDBDB;
 }
 body {
 	margin:0;
@@ -69,7 +69,7 @@ body {
 
 }
 #wrapper a {
-	text-decoration: underline!important;
+	text-decoration: underline;
 }
 
 a {
@@ -124,7 +124,7 @@ a:hover {
 }
 
 #navigation li a {
-	text-decoration:none!important;
+	text-decoration:none;
 	padding:7px 10px;
 	display:block;
 	background-color:#F7F7F2;
@@ -136,7 +136,7 @@ a:hover {
 }
 
 #navigation.top.style2 li {
-	float:left!important;
+	float:left;
 	padding:6px 10px;
 }
 
@@ -145,7 +145,7 @@ a:hover {
 }
 
 #navigation.top.style1 li {
-	float:left!important;
+	float:left;
 }
 
 #navigation.top.style1 li a {
@@ -254,16 +254,16 @@ input[type=text].site_style:focus,textarea.site_style:focus{
 	border: 1px solid #757575;
 }
 .small_form{
-	width:170px!important;
+	width:170px;
 }
 .big_form{
-	width:400px!important;
+	width:400px;
 }
 .small_form_textarea{
-	width:153px!important;
+	width:153px;
 }
 .big_form_textarea{
-	width:383px!important;
+	width:383px;
 }
 .enqueteprocent{
 	height:20px;
