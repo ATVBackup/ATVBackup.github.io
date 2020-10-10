@@ -80,18 +80,18 @@ body {
 }
 
 #header {
-	height: 136px
+	height: 136px!important
 }
 
 #navigation.left #menu>ul>li>ul {
-	margin-left: 171px
+	margin-left: 171px!important
 }
 
 #navigation.right #menu>ul>li>ul {
-	margin-left: -171px
+	margin-left: -171px!important
 }
 
 #navigation.right,
 #navigation.left {
-	width: 171px
+	width: 171px!important
 }
